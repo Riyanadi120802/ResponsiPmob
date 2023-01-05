@@ -35,25 +35,19 @@ public class Login extends AppCompatActivity {
                     startActivity(inte);
                 } else if (username.equals("mhs") && password.equals("mhs")){
                     Toast.makeText(Login.this, "Login berhasil", Toast.LENGTH_SHORT).show();
-                    Intent inte = new Intent(Login.this, TampilanMhs.class);
-                    startActivity(inte);
+                    Intent inte2 = new Intent(Login.this, TampilanMhs.class);
+                    startActivity(inte2);
                 } else {
                     Toast.makeText(Login.this, "Login gagal", Toast.LENGTH_SHORT).show();
                     setUsername.setText("");
                     setPassword.setText("");
                     counter++;
                     if(counter==3){
-                        Toast.makeText(Login.this, "Percobaan sudah kadaluarsa", Toast.LENGTH_LONG).show();
-                        try {
-                            Thread.sleep(3000);
-                            finish();
-                        } catch (InterruptedException e) {
-                            e.printStackTrace();
-                        }
+                        Toast.makeText(Login.this, "Akun Telah Terblokir!", Toast.LENGTH_LONG).show();
+                        finish();
                     }
                 }
             }
         });
     }
-
 }
