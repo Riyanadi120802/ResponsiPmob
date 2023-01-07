@@ -16,8 +16,8 @@ public class TampilanMhs extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tampilan_mhs);
 
-        input = (TextView) findViewById(R.id.Input);
-        cetak = (TextView) findViewById(R.id.cetak);
+        input = (TextView) findViewById(R.id.menu1);
+        cetak = (TextView) findViewById(R.id.menu2);
 
         input.setOnClickListener(new View.OnClickListener(){
             @Override

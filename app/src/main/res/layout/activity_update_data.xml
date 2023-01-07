@@ -24,7 +24,7 @@
             android:layout_height="67dp"
             android:fontFamily="@font/poppinsbold"
             android:gravity="center_vertical"
-            android:text="Input Data Mahasiswa"
+            android:text="Update Data Mahasiswa"
             android:textAlignment="center"
             android:textColor="@color/sekunder"
             android:textSize="20sp" />

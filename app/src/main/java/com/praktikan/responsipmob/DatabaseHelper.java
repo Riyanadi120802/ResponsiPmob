@@ -3,6 +3,7 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
+import android.database.Cursor;
 
 import androidx.annotation.Nullable;
 
@@ -25,6 +26,13 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     @Override
     public void onUpgrade(SQLiteDatabase sqLiteDatabase, int i, int i1) {
 
+    }
+
+    public Cursor getdata()
+    {
+        SQLiteDatabase DB = this.getWritableDatabase();
+        Cursor cursor  = DB.rawQuery("Select * from Mhs", null);
+        return cursor;
     }
 
     public void hapusDatabase(SQLiteDatabase db){

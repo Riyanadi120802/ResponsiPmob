@@ -52,7 +52,7 @@
             android:textColor="@color/black" />
 
         <TextView
-            android:id="@+id/textView18"
+            android:id="@+id/isiNama"
             android:layout_width="301dp"
             android:layout_height="wrap_content"
             android:fontFamily="@font/poppinsmedium"
@@ -84,7 +84,7 @@
             android:textColor="@color/black" />
 
         <TextView
-            android:id="@+id/textView22"
+            android:id="@+id/isiNIM"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/poppinsmedium"
@@ -116,7 +116,7 @@
             android:textColor="@color/black" />
 
         <TextView
-            android:id="@+id/textView23"
+            android:id="@+id/isiKelas"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/poppinsmedium"
@@ -147,7 +147,7 @@
             android:textColor="@color/black" />
 
         <TextView
-            android:id="@+id/textView24"
+            android:id="@+id/isiProdi"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/poppinsmedium"
@@ -337,7 +337,7 @@
           android:textColor="#FFFFFF" />
 
       <Button
-          android:id="@+id/button5"
+          android:id="@+id/ubah"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
           android:layout_marginLeft="10dp"
@@ -350,8 +350,8 @@
     </LinearLayout>
 
     <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="wrap_content"
+        android:id="@+id/imageView9"
+        android:layout_width="match_parent"
         android:layout_height="200dp"
         app:srcCompat="@drawable/canvas" />
 

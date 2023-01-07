@@ -85,7 +85,7 @@
                         app:srcCompat="@drawable/input" />
 
                     <TextView
-                        android:id="@+id/Input"
+                        android:id="@+id/menu1"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:layout_weight="1"
@@ -118,12 +118,12 @@
                         app:srcCompat="@drawable/printer" />
 
                     <TextView
-                        android:id="@+id/cetak"
+                        android:id="@+id/menu2"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:layout_weight="1"
                         android:fontFamily="@font/poppinsextra"
-                        android:text="TextView"
+                        android:text="Cetak Kartu"
                         android:textAlignment="center"
                         android:textColor="@color/primary"
                         tools:text="Cetak Kartu" />

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ecf0f1"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppinsextra"
+        android:gravity="center"
+        android:text="Daftar Data Mahasiswa"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"></TextView>
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/judul"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"></ListView>
+
+    <!--    <Button-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Buat Testimoni baru"-->
+    <!--        android:layout_below="@+id/judul"-->
+    <!--        android:width="200sp"-->
+    <!--        android:gravity="center"-->
+    <!--        android:layout_marginTop="20sp"-->
+    <!--        android:layout_marginBottom="10sp"-->
+    <!--        android:background="@android:color/holo_green_dark"-->
+    <!--        android:textColor="@color/white"-->
+    <!--        android:id="@+id/button2"></Button>-->
+
+</RelativeLayout>
